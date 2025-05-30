@@ -84,7 +84,7 @@ spec:
                   fieldPath: spec.nodeName
             - name: ROVER_BACKEND_ADDR
               # backend OAP address
-              value: oap:11800
+              value: skywalking-skywalking-helm-oap.observability.svc.cluster.local:11800
             - name: ROVER_HOST_MAPPING
               value: /host
       hostPID: true
